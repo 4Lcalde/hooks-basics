@@ -1,0 +1,13 @@
+.character-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+img {
+  border-radius: 100%;
+  transition: all 0.5s;
+}
+.click {
+  transform: rotate(180deg);
+}
